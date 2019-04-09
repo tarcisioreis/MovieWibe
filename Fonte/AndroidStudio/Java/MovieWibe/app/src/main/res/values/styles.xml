@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="actionBarStyle">@style/FullscreenActionBarStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme.Fullscreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="StyleDialogs" parent="AppTheme.NoActionBar" />
+
+    <style name="AppTheme.Fullscreen.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/actionbar_background</item>
+        <item name="titleTextStyle">@style/FullscreenActionBarTitleTextStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarTitleTextStyle" parent="FullscreenActionBarStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/titles</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Fullscreen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

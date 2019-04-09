@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MovieDetailActivity">
+
+    <item android:id="@+id/action_back"
+        android:title="@string/action_voltar"
+        android:titleCondensed="@string/action_voltar"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_back"
+        app:showAsAction="always" />
+
+</menu>

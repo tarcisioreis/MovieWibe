@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MovieListActivity">
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_atualizar"
+        android:titleCondensed="@string/action_atualizar"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_sair"
+        android:title="@string/action_sair"
+        android:titleCondensed="@string/action_sair"
+        android:orderInCategory="200"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="always" />
+
+</menu>

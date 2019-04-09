@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titles">20dp</dimen>
+    <dimen name="itembottom">2dp</dimen>
+    <dimen name="layoutmarginbottom">24dp</dimen>
+
+    <!-- usado na lista de filmes -->
+    <dimen name="paddingTop">16dp</dimen>
+    <dimen name="padding">15dp</dimen>
+    <dimen name="textsize">10sp</dimen>
+    <dimen name="layoutwidthname">250dp</dimen>
+
+    <dimen name="layoutwidthimg">92px</dimen>
+    <dimen name="layoutheightimg">138px</dimen>
+    <dimen name="layoutmarginrightimg">15dp</dimen>
+    <dimen name="layoutmarginleftimg">15dp</dimen>
+    <dimen name="layoutmarginstartimg">15dp</dimen>
+    <dimen name="layoutmarginendimg">15dp</dimen>
+
+    <dimen name="layoutwidthgenre">250dp</dimen>
+    <dimen name="layoutwidthreleasedate">250dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- usado no detalhe do filme -->
+    <dimen name="layoutmargimBottomDetail">30dp</dimen>
+    <dimen name="paddingTopDetail">32dp</dimen>
+    <dimen name="paddingdetail">25dp</dimen>
+    <dimen name="textsizedetail">15sp</dimen>
+    <dimen name="layoutwidthdetailimg">154px</dimen>
+    <dimen name="layoutheightdetailimg">231px</dimen>
+    <dimen name="layoutwidtdetailhname">320dp</dimen>
+    <dimen name="layoutwidthoverwiew">250dp</dimen>
+    <dimen name="layoutwidthdetailgenre">320dp</dimen>
+
+    <!-- usado na busca -->
+    <dimen name="layout_width">0dp</dimen>
+</resources>

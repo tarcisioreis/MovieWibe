@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding">
+
+    <ImageView
+        android:id="@+id/ivImg"
+        android:layout_width="@dimen/layoutwidthimg"
+        android:layout_height="@dimen/layoutheightimg"
+        android:layout_gravity="left|start"
+        android:layout_marginStart="@dimen/layoutmarginstartimg"
+        android:layout_marginLeft="@dimen/layoutmarginleftimg"
+        android:layout_marginEnd="@dimen/layoutmarginendimg"
+        android:layout_marginRight="@dimen/layoutmarginrightimg"
+        android:contentDescription="@string/lbl_img"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/layoutmarginbottom"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvTitle"
+                        android:layout_width="@dimen/layoutwidthname"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_title"
+                        android:textColor="@drawable/colortextviewlist"
+                        android:textSize="@dimen/textsize" />
+
+                    <TextView
+                        android:id="@+id/tvGenre"
+                        android:layout_width="@dimen/layoutwidthgenre"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_genre"
+                        android:textColor="@drawable/colortextviewlist"
+                        android:textSize="@dimen/textsize" />
+
+                    <TextView
+                        android:id="@+id/tvReleaseDate"
+                        android:layout_width="@dimen/layoutwidthreleasedate"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lbl_releasedate"
+                        android:textColor="@drawable/colortextviewlist"
+                        android:textSize="@dimen/textsize" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

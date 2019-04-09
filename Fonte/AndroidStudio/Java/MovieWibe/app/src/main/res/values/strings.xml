@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MovieWibe</string>
+    <string name="title_movie_list">Movie List</string>
+    <string name="title_movie_detail">Movie Detail</string>
+    <string name="alerta_title">Informação</string>
+    <string name="alerta_sair">Confirmar saída do aplicativo?</string>
+    <string name="alerta_pesquisar">Nenhum filme encontrado com esse Título.</string>
+    <string name="hint_fechar">Fechar</string>
+    <string name="hint_sim">Sim</string>
+    <string name="hint_nao">Não</string>
+    <string name="hint_ok">OK</string>
+    <string name="hint_pesquisar">Pesquisar por Título - aqui</string>
+    <string name="hint_aguarde">Aguarde... Buscando dados.</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_atualizar">Atualizar</string>
+    <string name="action_voltar">Voltar</string>
+
+    <string name="error_update_genres">Ocorreu erro ao atualizar dados do Gênero de Filme.</string>
+    <string name="error_insert_genres">Ocorreu erro ao inserir dados do Gênero de Filme.</string>
+    <string name="error_search_genres">Ocorreu erro ao buscar dados do Gênero de Filme.</string>
+    <string name="error_network">Verifique seu sinal com a Internet.Continuar ou tentar mais tarde?</string>
+    <string name="lbl_title">Sem Título definido</string>
+    <string name="lbl_genre">Sem Gênero definido</string>
+    <string name="lbl_releasedate">Sem Data de Lançamento definida</string>
+    <string name="lbl_img">Imagem ilustrativa</string>
+    <string name="lbl_overview">Sem Sinopse definida</string>
+</resources>
