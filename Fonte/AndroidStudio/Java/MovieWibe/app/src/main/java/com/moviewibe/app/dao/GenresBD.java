@@ -15,6 +15,10 @@ import com.moviewibe.app.dao.iDao.iBD;
 /**
  * @author Tarcisio Machado dos Reis
  *
+ * 
+ * Classe DAO para manipulacao de dados em tabela de banco de dados local
+ * 
+ * 
  */
 public class GenresBD implements iBD {
 

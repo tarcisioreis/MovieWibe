@@ -39,6 +39,11 @@ import static com.moviewibe.app.utils.Utilitarios.isConnected;
 
 /**
  * @author Tarcisio Machado dos Reis
+ * 
+ * 
+ * Classe usada para mostrar em forma de listagem dados de Filme
+ * 
+ * 
  */
 public class MovieListActivity extends CommonActivity implements AdapterView.OnItemClickListener,
                                                                  SearchView.OnQueryTextListener {

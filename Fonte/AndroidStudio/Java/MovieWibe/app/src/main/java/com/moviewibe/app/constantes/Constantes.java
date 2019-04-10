@@ -2,6 +2,11 @@ package com.moviewibe.app.constantes;
 
 /**
  * @author Tarcisio Machado dos Reis
+ * 
+ * 
+ * Classe usada para facilitar acesso a API
+ * 
+ * 
  */
 public class Constantes {
 

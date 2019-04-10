@@ -7,6 +7,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 /**
  * @author Tarcisio Machado dos Reis
  *
+ *
+ * Classe usada para criacao, manipulacao de dados no banco de dados SQLLite local no aplicativo
+ * 
+ *
  */
 public class BDCore extends SQLiteOpenHelper {
     private static final String NOME_BD = "moviewibe";

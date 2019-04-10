@@ -1,5 +1,13 @@
 package com.moviewibe.app.beans;
 
+/**
+ * @author Tarcisio Machado dos Reis
+ *
+ * 
+ * Classe DTO representando tabela de dados para armazenar local via API dados de Genero
+ * 
+ * 
+ */
 public class Genres extends AbstractBean {
 
     private int id;

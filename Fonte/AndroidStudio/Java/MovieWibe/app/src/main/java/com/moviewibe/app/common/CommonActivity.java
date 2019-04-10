@@ -2,6 +2,11 @@ package com.moviewibe.app.common;
 
 /**
  * @author Tarcisio Machado dos Reis
+ * 
+ * 
+ * Classe Abstrata para instancia classe Activity com metodos abstratos e concreto para faciliar a implementacao
+ * 
+ * 
  */
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;

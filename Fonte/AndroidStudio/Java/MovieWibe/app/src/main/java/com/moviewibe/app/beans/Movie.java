@@ -5,6 +5,14 @@ import android.os.Parcelable;
 
 import com.moviewibe.app.utils.Utilitarios;
 
+/**
+ * @author Tarcisio Machado dos Reis
+ *
+ * 
+ * Classe DTO representando tabela de dados para armazenar local via API dados de Filme
+ * 
+ * 
+ */
 public class Movie extends AbstractBean implements Parcelable {
 
     private int id;

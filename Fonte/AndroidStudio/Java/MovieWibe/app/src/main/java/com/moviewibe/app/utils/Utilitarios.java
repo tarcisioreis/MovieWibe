@@ -16,6 +16,11 @@ import java.util.Date;
 
 /**
  * @author Tarcisio Machado dos Reis
+ *
+ * 
+ * Classe com rotina de uso comum no aplicativo para data, teste de conexao e assim por diante
+ * 
+ * 
  */
 public class Utilitarios {
 

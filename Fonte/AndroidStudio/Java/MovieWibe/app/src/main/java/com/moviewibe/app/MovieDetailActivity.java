@@ -20,6 +20,14 @@ import com.squareup.picasso.Picasso;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.view.ContextThemeWrapper;
 
+/**
+ * @author Tarcisio Machado dos Reis
+ *
+ * 
+ * Classe usada mostrar detalhes do Filme selecionado na listagem 
+ * 
+ * 
+ */
 public class MovieDetailActivity extends CommonActivity {
 
     private Context context = this;

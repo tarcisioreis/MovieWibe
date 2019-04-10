@@ -25,6 +25,11 @@ import androidx.appcompat.view.ContextThemeWrapper;
 
 /**
  * @author Tarcisio Machado dos Reis
+ *
+ * 
+ * Classe para montar dados na listagem de filmes e pesquisa
+ * 
+ *    
  */
 public class MovieAdapter extends BaseAdapter {
 

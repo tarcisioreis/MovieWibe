@@ -14,6 +14,20 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
+/**
+ * @author Tarcisio Machado dos Reis
+ *
+ * 
+ * Classe usada para interface entre o aplicativo e a API, 
+ * 
+ * disponibilizando o acesso aos serviços de listagem e pesquisa.
+ * 
+ *  Caso a conexao com Internet esteja lenta irá mostrar um dialogo com Progress Bar 
+ * 
+ *  até carregar os dados na tela
+ * 
+ * 
+ */
 public class HttpClient extends AsyncTask<String[], Void, JSONObject> {
 
     private OkHttpClient client = new OkHttpClient();

@@ -9,6 +9,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @author Tarcisio Machado dos Reis
+ *
+ * 
+ * Classe usada para mostrar abertura do aplicativo
+ * 
+ * 
  */
 public class SplashScreenActivity extends AppCompatActivity implements Runnable{
 
